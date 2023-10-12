@@ -42,7 +42,7 @@ myprofile.PlacesLived.push(
 /* Name */
 document.querySelector('#name').textContent = myprofile.Name;
 /* Photo with attributes */
-document.querySelector('#photo').setAttribute = myprofile.Photo;
+document.querySelector('#photo').setAttribute('src', myprofile.Photo) ;
 
 /* Favorite Foods List*/
 myprofile.FavoriteFoods.forEach(food => {
